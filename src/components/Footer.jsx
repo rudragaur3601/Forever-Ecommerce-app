@@ -6,7 +6,7 @@ const Footer = () => {
     <div >
     <div className='grid grid-cols-1 sm:grid-cols-[3fr_1fr_1fr] gap-6 sm:gap-14 my-10 sm:mt-40 text-sm'>
         <div>
-            <img src={assets.logo} className='mb-5 w-32' alt=""/>
+            <img src={assets.logo} className='mb-5 w-40' alt=""/>
             <p className='w-full md:w-2/3 text-gray-600'>
                 We are dedicated to bringing you the latest and most stylish products to elevate your lifestyle. Our collection is carefully curated to offer quality, comfort, and fashion-forward designs. Whether you're shopping for essentials or looking for that perfect statement piece, we've got you covered. Thank you for choosing us for your fashion journey!
             </p>

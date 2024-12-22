@@ -6,9 +6,10 @@ import { useState } from 'react'
 const Navbar = () => {
     const [visible, setVisible] = useState(false)
     return (
-        <div className='flex justify-between items-center py-5 font-medium '>
+        <div className='flex justify-between items-center py-5 font-medium  '>
             <Link to='/' >
-                <img src={assets.logo} className='w-36' alt="" />
+                <img src={assets.logo} className='w-40 ' alt="" />
+                
             </Link>
             <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
                 <NavLink to='/' className='flex flex-col items-center gap-1'>
