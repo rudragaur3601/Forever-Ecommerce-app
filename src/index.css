@@ -4,10 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-*{font-family: Outfit}
+* {
+  font-family: Outfit;
+}
 
 a.active hr {
-  display: block
+  display: block;
 }
 
 .prata-regular {
@@ -16,9 +18,9 @@ a.active hr {
   font-style: normal;
 }
 
-@media (max-width: 640px){
-    a.active{
-        background-color: black;
-        color:white
-    }
+@media (max-width: 640px) {
+  a.active {
+    background-color: black;
+    color: white;
+  }
 }
